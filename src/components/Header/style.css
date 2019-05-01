@@ -1,7 +1,5 @@
 .header {
-    background-color: #2C323C;
-    background-image: url("/assets/images/geometry.svg");
-    background-repeat: repeat;
+    background-color: black;
     color: white;
     min-height: 400px;
     padding: 180px 20px; 

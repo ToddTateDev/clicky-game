@@ -80,7 +80,7 @@ class Game extends Component {
                      key={item.id}
                      id={item.id}
                      shake={!this.state.score && this.state.topScore}
-                     handleCLick={this.handleItemClick}
+                     handleClick={this.handleItemClick}
                      image={item.image}
                      />   
                     ))}
