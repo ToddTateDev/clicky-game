@@ -36,12 +36,12 @@ class Game extends Component {
         });
     };
 
-    resetData = data => {
+    resetData = characters => {
         const resetData = characters.map(item => ({ ...item, clicked: false }));
         return this.shuffleData(resetData);
     };
 
-    shuffleData = data => {
+    shuffleData = characters => {
         let i = characters.length - 1;
         while (i > 0) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -50,7 +50,7 @@ class Game extends Component {
             characters[j] = temp;
             i--;
         }
-        return data;
+        return characters;
     }
 
     handleItemClick = id => {
