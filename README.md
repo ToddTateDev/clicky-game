@@ -1,9 +1,9 @@
 # React Clicky Game!
-A project I completed during the University Of Denver Full Stack Coding Bootcamp. 
+A project I completed during the University Of Denver Full Stack Coding Bootcamp. A simple React game. Where you try to beat your high score by remebering the images as they shuffle.
 ## Getting Started
 Follow to link below to play the game!
 
-* [Clicky Game](https://reactjs.org/) - Clicky Game
+* [Clicky Game](https://toddtatedev.github.io/clicky-game/) - Clicky Game
 
 
 ## Built With
